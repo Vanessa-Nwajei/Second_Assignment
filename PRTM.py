@@ -10,4 +10,7 @@ def calculate_protein_mass(P):
     total_mass = 0
     for letter in P:
         total_mass += monoisotopic_mass_table[letter]
-    return total_mass
+    return ("%.4f" % total_mass) # to reduce the number after the decimal point
+
+protein_string = 'SKADYEK'
+print(calculate_protein_mass(protein_string))
