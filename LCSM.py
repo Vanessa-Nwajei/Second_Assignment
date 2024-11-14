@@ -8,6 +8,6 @@ def common_substring(strings):
     return ""
             
 dna_strings = [
-    "GATTACA", "TAGACCA", "ATACA"
+    "GATTACA", "TAGACCA", "ACTGGA"
 ]
 print(common_substring(dna_strings))
